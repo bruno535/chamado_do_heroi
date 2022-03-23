@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav#topo{
+    background-color: #314f69;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav img#logo{
+    height: 70px;
+}
+nav h1{
+    color: white;
+}
+nav a{
+    width: 70px;
+    color: white;
+}
+
+/* main */
+main{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 35px;
+    margin: 34vh auto;
+}
+main#card{
+    width: 70vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main div h2{
+    color: red;
+    padding: 15px;
+}
+main div form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: block;
+    min-width: 294px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+input.input{
+    background-color: white;
+}
+button.input{
+    width:100%;
+    background-color: #f3d84b;
+}button.input:hover{
+    background-color: #e7c200;
+}
+a.input{
+    background-color: #db2f29;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+a.input:hover{
+    background-color: #c90700;
+}
+a#cadastreSe{
+    display: block;
+    padding: 7px;
+    text-align: center;
+    color: red;
+}
+#senhaInvalida{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+#select{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 400px;
+    border-bottom: 1px black solid;
+    margin: auto;
+}
